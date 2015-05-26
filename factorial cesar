@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int n,i,suma=1,factorial=1;
+
+        printf("Indique el final de la serie");
+        scanf("%d",&n);
+        printf("%d * %d!",suma,factorial);
+
+        for(i=1;i<=n;i++){
+        factorial ++;
+        suma ++;
+        printf("+%d * %d!",suma,factorial);
+        }
+return 0;
+}
